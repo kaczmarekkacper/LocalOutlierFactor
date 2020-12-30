@@ -1,6 +1,3 @@
-sort_list_by_dissimilatity <- dget("sort_list_by_dissimilatity.R")
-
-
 lof <- function(points, neighbor_number, tolerance) {
   points_copy = points
   for (i in 1:length(points_copy)) {
